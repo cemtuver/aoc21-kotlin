@@ -1,4 +1,4 @@
-# [Advent of Code 2021](https://adventofcode.com/2021) in Kotlin.
+# [Advent of Code 2021](https://adventofcode.com/2021) in Kotlin
 
 ## Prerequisites
 [Kotlin command-line compiler](https://kotlinlang.org/docs/command-line.html) is required to build the solutions. It can be installed from [here](https://github.com/JetBrains/kotlin/releases/tag/v1.6.0) manually or using Homebrew.
