@@ -49,7 +49,7 @@ data class Scanner(val readings: MutableList<Position> = mutableListOf()) {
 
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val input = File("input.txt").readLines()
     val scannerList = mutableListOf<Scanner>()
 

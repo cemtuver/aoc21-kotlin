@@ -10,7 +10,7 @@ data class Point(val x: Int, val y: Int, var cost: Int = 0) {
 
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val inputList = File("input.txt").readLines()
     val risks = inputList.map { it.toCharArray().map { it.digitToInt()} }
     val costs = MutableList<MutableList<Int>>(risks.size) { MutableList<Int>(risks[0].size) { Int.MAX_VALUE } }    

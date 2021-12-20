@@ -1,6 +1,6 @@
 import java.io.File
 
-fun main(args: Array<String>) {
+fun main() {
     val measurementList = File("input.txt").readLines().map { it.toInt() }
     val numberOfIncrements = measurementList
         .zipWithNext()

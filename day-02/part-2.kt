@@ -1,6 +1,6 @@
 import java.io.File
 
-fun main(args: Array<String>) {
+fun main() {
     val movementList = File("Input.txt").readLines()
     var horizontalPosition = 0
     var depth = 0

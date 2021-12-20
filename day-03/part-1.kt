@@ -1,6 +1,6 @@
 import java.io.File
 
-fun main(args: Array<String>) {
+fun main() {
     val inputList = File("input.txt").readLines()
     var readingMap = mutableMapOf<Int, Int>()
 

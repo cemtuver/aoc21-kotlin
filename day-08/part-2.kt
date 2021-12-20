@@ -9,7 +9,7 @@ fun findSegmentConfig(
     return digits.first { it.size == size && predicate(it) }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val inputList = File("input.txt").readLines()
     var sum = 0
 

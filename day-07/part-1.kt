@@ -1,7 +1,7 @@
 import java.io.File
 import kotlin.math.absoluteValue
 
-fun main(args: Array<String>) {
+fun main() {
     val inputList = File("input.txt").readLines()
     val positionList = inputList.first().split(",")
         .map { it.toInt() }

@@ -16,7 +16,7 @@ data class Fish(var timer: Int) {
 
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val inputList = File("input.txt").readLines()
     val fishList = inputList.first().split(",").map { Fish(it.toInt()) }.toMutableList()
 

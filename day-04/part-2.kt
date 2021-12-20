@@ -97,7 +97,7 @@ fun findLastWinningBoard(drawnList: List<Int>, boardList: List<Board>): Board? {
     return lastWinningBoard
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val inputList = File("input.txt").readLines()
     val drawnList = inputList.first().split(",").map { it.toInt() }
     val boardList = mutableListOf<Board>()

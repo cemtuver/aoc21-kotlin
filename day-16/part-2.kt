@@ -27,7 +27,7 @@ val hexToBinaryMap = mapOf(
         'F' to "1111"
     )
 
-fun main(args: Array<String>) {
+fun main() {
     val input = File("input.txt").readLines()
     val message = input.first()
         .map { hexToBinaryMap[it] }

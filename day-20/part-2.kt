@@ -1,6 +1,6 @@
 import java.io.File
 
-fun main(args: Array<String>) {
+fun main() {
     val input = File("input.txt").readLines()
     val algorithm = input.first().toCharArray()
     var inifitePixel = '.'

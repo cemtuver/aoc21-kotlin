@@ -112,7 +112,7 @@ class Container(
 
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val input = File("input.txt").readLines()
     var max = 0
 

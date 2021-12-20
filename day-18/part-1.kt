@@ -112,7 +112,7 @@ class Container(
 
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val input = File("input.txt").readLines()
     val numberList = input.map { parse(it, null) }
     var r = numberList.first()
