@@ -77,7 +77,7 @@ data class Vent(
 
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val lines = File("input.txt").readLines()
     val overlap = Array(row) { IntArray(column) { 0 } }
     var numberOfOverlaps = 0

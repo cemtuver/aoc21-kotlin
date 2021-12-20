@@ -1,6 +1,6 @@
 import java.io.File
 
-fun main(args: Array<String>) {
+fun main() {
     val inputList = File("input.txt").readLines()
     val spawnDayCountMap = mutableMapOf<Int, Long>()
     val initialFishList = inputList.first().split(",")

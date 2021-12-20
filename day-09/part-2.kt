@@ -17,7 +17,7 @@ data class Point(val x: Int, val y: Int) {
 
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val inputList = File("input.txt").readLines()
     val array = inputList.map { line -> line.toList().map { it.digitToInt() }.toIntArray() }
     val basinList = mutableListOf<Int>()

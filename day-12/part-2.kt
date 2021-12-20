@@ -1,6 +1,6 @@
 import java.io.File
 
-fun main(args: Array<String>) {
+fun main() {
     val inputList = File("input.txt").readLines()
     val edges = inputList.map { input -> input.split("-") }
         .flatMap { listOf(it.first() to it.last(), it.last() to it.first() ) }

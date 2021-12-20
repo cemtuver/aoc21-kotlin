@@ -3,7 +3,7 @@ import java.io.File
 data class Point(val x: Int, val y: Int)
 data class Fold(val axis: String, val index: Int)
 
-fun main(args: Array<String>) {
+fun main() {
     val inputList = File("input.txt").readLines()
     val dividerIndex = inputList.indexOf("")
         var pointList = inputList.take(dividerIndex)
